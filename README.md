@@ -1,42 +1,53 @@
-# Diabetes Prediction using Machine Learning
+# 🩺 Diabetes Prediction using Machine Learning
 
-## Overview
-This project focuses on predicting diabetes using machine learning techniques. Various preprocessing steps such as handling imbalanced data (SMOTE, RandomUnderSampler), feature selection (RFE), and outlier removal (Z-score) were applied to improve model performance.
+## 🔍 Overview
+This project explores health-related indicators to classify individuals into three categories:  
+- **0:** No Diabetes  
+- **1:** Prediabetes  
+- **2:** Diabetes  
 
-## Dataset
+Various preprocessing steps such as handling imbalanced data (SMOTE, RandomUnderSampler), feature selection (RFE), and outlier removal (Z-score) were applied to improve model performance.
+
+## 📂 Dataset
 - **Name:** `diabetes_012_health_indicators_BRFSS2015.csv`
-- **Description:** Contains health indicators related to diabetes classification (0: No Diabetes, 1: Prediabetes, 2: Diabetes).
+- **Description:** A dataset containing health indicators associated with diabetes classification. 
 
-## Technologies Used
-- Python
-- Pandas, NumPy
-- Seaborn, Matplotlib
-- Scikit-learn
-- Imbalanced-learn (SMOTE, RandomUnderSampler)
+## 🛠️Technologies Used
+- 🐍 **Python**  
+- 📊 **Pandas, NumPy** (Data Handling)  
+- 🎨 **Seaborn, Matplotlib** (Data Visualization)  
+- 🤖 **Scikit-learn** (Machine Learning)  
+- ⚖️ **Imbalanced-learn** (SMOTE, RandomUnderSampler)  
 
-## Project Steps
-1. **Data Loading**
-   - Read and explore the dataset.
-   - Identify missing values and basic statistics.
+## 🚀 Project Steps
+### 1️⃣ Data Loading 📥  
+- Read and explore the dataset.  
+- Identify missing values and compute basic statistics.  
 
-2. **Exploratory Data Analysis (EDA)**
-   - Feature distribution visualization.
-   - Class imbalance check.
+### 2️⃣ Exploratory Data Analysis (EDA) 📊  
+- Visualized feature distributions.  
+- Checked for class imbalance in target labels.  
 
-3. **Data Preprocessing**
-   - Outlier detection and removal using Z-score.
-   - Feature selection using Recursive Feature Elimination (RFE).
-   - Oversampling (SMOTE) and Undersampling (RandomUnderSampler) to handle class imbalance.
+### 3️⃣ Data Preprocessing 🔄  
+- **Outlier detection & removal** using **Z-score**.  
+- **Feature selection** with **Recursive Feature Elimination (RFE)**.  
+- **Class balancing** via **SMOTE (oversampling) & RandomUnderSampler (undersampling)**.  
 
-4. **Machine Learning Models**
-   - Logistic Regression
-   - Gradient Boosting
-   - Decision Tree
-   - Performance evaluation using accuracy, precision, recall, and F1-score.
+### 4️⃣ Machine Learning Models 🤖  
+Tested multiple models to compare their effectiveness:  
+✅ **Logistic Regression**  
+✅ **Gradient Boosting**  
+✅ **Decision Tree**  
 
-5. **Results & Insights**
-   - Comparison of models with different data handling techniques.
-   - Effectiveness of feature selection and outlier removal.
+### 5️⃣ Results & Insights 📈  
+- **Compared model performance** under different preprocessing techniques.  
+- Assessed the impact of **feature selection** and **outlier removal** on accuracy.  
+
+📌 **Evaluated using:**  
+- ✅ Accuracy  
+- ✅ Precision  
+- ✅ Recall  
+- ✅ F1-score  
 
 ## Future Improvements
 - Experiment with deep learning models.
@@ -44,5 +55,5 @@ This project focuses on predicting diabetes using machine learning techniques. V
 - Deploy the model using a web app.
 
 ---
-*This project was created by Halyusa Ard Wahyudi as part of a data science portfolio.*
+✨ *Created by Halyusa Ard Wahyudi as part of a data science portfolio.* 🚀 
 
