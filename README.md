@@ -43,7 +43,7 @@ Tested multiple models to compare their effectiveness:
 - **Compared model performance** under different preprocessing techniques.  
 - Assessed the impact of **feature selection** and **outlier removal** on accuracy.  
 
-📌 **Evaluated using:**  
+ **Evaluated using:**  
 - Accuracy  
 - Precision  
 - Recall  
